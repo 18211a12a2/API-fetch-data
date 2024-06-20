@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   font-family: "Geologica", sans-serif;
-  font-weight: 600;
 }
 .container {
   background-image: url(./pict.jpg);
@@ -11,24 +10,26 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-button{
-  padding: 10px;
-  font-size: 1rem;
-  border: none;
-  margin: 10px;
-  background-color: #f3eb00;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  border-radius: 5px;
+span{
+  margin: 20px;
+  font-size: 2.5rem;
 }
-
-h1{
-  color: purple;
-  font-weight: 900;
+button{
+  border: none;
   font-size: 2rem;
-  position: absolute;
-  top: 53%;
+  background-color: #00687d;
+  padding: 5px;
+  border-radius: 6px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.result{
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
 }
